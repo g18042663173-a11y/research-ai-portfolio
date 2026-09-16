@@ -12,6 +12,12 @@
 
 该仓库是基于公开语料的个人可复现工程，不是华为官方产品，不含华为内部代码或数据。
 
+### [Cross-Domain CTR](https://github.com/g18042663173-a11y/cross-domain-ctr)
+
+跨域广告 CTR 预估实验框架：SENet / FM / DCN-M 特征交叉，信息流与广告双域兴趣 Attention，Symmetric InfoNCE 表征对齐。公开训练与评估代码；**不含**竞赛原始 CSV 与 checkpoint。
+
+离线冻结口径：相较 Baseline，AUC **+2.18%**，GAUC **+1.49%**。
+
 ### [问题工单经验知识库](https://github.com/g18042663173-a11y/issue-ticket-kb)
 
 面向 C 语言开发团队的问题沉淀与检索工作台：AI 只生成草稿，人工确认后才进入正式检索；实现中文检索、状态机、修订历史、批量恢复、数据出境守卫、MCP 只读/草稿工具和 Windows 桌面交付。隔离 PostgreSQL 16.15 上 174 项测试通过；28 条 synthetic 数据、34 条固定评测的 Recall@5 为 `1.0000`、MRR 为 `0.8978`、负例通过率为 `1.0000`。
